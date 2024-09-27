@@ -1,6 +1,5 @@
 # Dell-EMC-Unity-XT-Documentation
 
-# Dell EMC Unity XT Complete Documentation
 
 This repository contains comprehensive documentation for **Dell EMC Unity XT**, including its key features, use cases, and technologies such as **UnityVSA**, **XtremIO**, and **VxBlock**. This documentation will serve as a complete reference for users who wish to understand the architecture, deployment, and use of Dell EMC Unity XT storage solutions.
 
@@ -70,7 +69,7 @@ Unity XT is **NVMe-ready**, supporting the Non-Volatile Memory Express protocol 
 ---
 
 ### Data Reduction (5:1)
-
+This refers to techniques used to reduce the amount of physical storage required to hold data. The 5:1 ratio means that for every 5 units of data (e.g., 5TB), only 1 unit of actual storage (1TB) is used
 Unity XT features **data reduction** technologies to reduce the amount of physical storage required:
 - **Inline Deduplication**: Removes duplicate data in real-time.
 - **Inline Compression**: Compresses data to reduce its size, allowing for more efficient storage usage.
